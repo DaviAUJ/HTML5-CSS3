@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    /* 
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    Melhores Para Usar
+    em, px
+    16px == 1em
+    */
+    font-size: 1.5em;
+}
+
+    /* 
+    Shorthand
+    font:
+
+    font-style -> font-weight -> font-size -> font-style
+    */
+h1, h2 {
+    font: italic bolder 3em Arial, Helvetica, sans-serif;
+}

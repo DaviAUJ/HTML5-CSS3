@@ -1,0 +1,13 @@
+body {
+    background-color: dimgray;
+    font: normal 16pt arial;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
