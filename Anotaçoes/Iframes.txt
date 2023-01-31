@@ -1,0 +1,13 @@
+Iframe tem chance de não ser indexado pelo google
+
+Problemas de acessibilidade:
+    Como leitores de tela não conseguirem enxergar o conteudo
+
+Problemas de usabilidade:
+    Como não alguns navegadores ficarem confusos em voltar a página principal ou o iframe
+    navegador por ficar confuso com sites que usam links com target: _blank
+    O site que está dentro do iframe, se não for responsivo, pode aparecer quebrado
+
+Existem problemas de segurança em relação aos iframes:
+    soluções:
+        duas propriedades, sandbox e referrerpolicy
