@@ -7,6 +7,7 @@
     <title>Media Query</title>
 
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaquery.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 </head>
 <body>
@@ -39,7 +40,7 @@
         function aparecer(id) {
             elmnt = document.getElementById(id).style
 
-            if (elmnt.display === "none") {
+            if (elmnt.display === "none" || elmnt.display === "") {
                 elmnt.display = "block"
             } else {
                 elmnt.display = "none"
