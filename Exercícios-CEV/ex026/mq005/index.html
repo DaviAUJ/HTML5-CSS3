@@ -38,12 +38,12 @@
 
     <script>
         function aparecer(id) {
-            elmnt = document.getElementById(id).style
+            let elmnt = document.getElementById(id).style
 
-            if (elmnt.display === "none" || elmnt.display === "") {
+            if (elmnt.display === "") {
                 elmnt.display = "block"
             } else {
-                elmnt.display = "none"
+                elmnt.display = ""
             }
         }
     </script>
