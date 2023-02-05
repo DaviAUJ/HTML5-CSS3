@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+
+        <span id="burguer" class="material-symbols-sharp" onclick="aparecer('nav')">menu</span>
+        <nav id="nav">
+            <a href="#">Home</a>
+            <a href="#">Coleção</a>
+            <a href="#">Vídeos</a>
+            <a href="#">Configurações</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testanto Media Queries</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem esse animi eveniet nam similique, mollitia hic excepturi, laborum explicabo, doloremque architecto unde libero expedita incidunt quisquam labore? Temporibus, reprehenderit. Doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, praesentium? Iure vero sapiente cumque dolor atque commodi aut. Consequatur, officia at debitis blanditiis esse voluptatibus quasi voluptates nisi repellendus praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore placeat explicabo quas quia saepe odit consequuntur impedit omnis quo est illo, alias, voluptas eveniet veniam debitis magni dicta reiciendis suscipit.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ex illum nulla sint explicabo. Vel, error praesentium possimus nisi a necessitatibus corrupti quis quasi atque explicabo alias rerum impedit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, nesciunt culpa odit tempore soluta unde blanditiis quas fugiat dolores tenetur, illum doloremque in non dolorem incidunt provident iste? Similique, iste?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, culpa aspernatur. Nam veniam dolorum numquam ad autem, esse sequi nostrum unde tempore ullam. Aliquid dicta mollitia ducimus cumque totam Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus error voluptatem delectus ad, non sed perferendis tenetur itaque nemo ipsa ab. Numquam cum at exercitationem sunt quia assumenda reprehenderit consequuntur.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae enim repellendus et praesentium non suscipit beatae laborum quasi. Fugiat perspiciatis assumenda saepe consequuntur enim provident odio iste rem maiores. Modi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus neque sapiente esse tenetur deserunt. Possimus doloribus veritatis est quisquam. Quisquam atque impedit perspiciatis quas eveniet tempora excepturi facilis, aliquid molestiae.</p>
+        </article>
+    </main>
+
+    <script>
+        function aparecer(id) {
+            elmnt = document.getElementById(id).style
+
+            if (elmnt.display === "none") {
+                elmnt.display = "block"
+            } else {
+                elmnt.display = "none"
+            }
+        }
+    </script>
+</body>
+</html>
