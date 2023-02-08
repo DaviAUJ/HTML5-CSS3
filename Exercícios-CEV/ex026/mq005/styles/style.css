@@ -13,6 +13,7 @@ body {
 
 header {
     background-color: gray;
+    min-height: 100px;
 }
 
 h1 {
@@ -22,7 +23,7 @@ h1 {
 
 #burguer {
     display: block;
-    padding: 30px;
+    padding: 20px;
 
     background-color: #303030;
 
@@ -40,8 +41,9 @@ h1 {
 
 nav {
     display: none;
-
     padding: 10px;
+
+    background-color: gray;
 }
 
 nav > a {
@@ -65,7 +67,7 @@ nav > a:not(:first-child):not(:last-child) {
 }
 
 main {
-    max-width: 700px;
+    max-width: 900px;
     margin: 10px auto;
     padding: 20px;
 
